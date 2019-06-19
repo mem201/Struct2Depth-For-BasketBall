@@ -1,0 +1,6 @@
+1. train.py input data_dir
+2. data_dir to model.py
+3. dara_dir to reader.datareader
+4. reader.read_data()
+5. reader.compile_file_list(data_dir,'train')
+6. reading train.txt
