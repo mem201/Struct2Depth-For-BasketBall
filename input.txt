@@ -1,6 +1,11 @@
 1. train.py input data_dir
 2. data_dir to model.py
-3. dara_dir to reader.datareader
-4. reader.read_data()
-5. reader.compile_file_list(data_dir,'train')
-6. reading /data_dir/train.txt
+    3. dara_dir to reader.datareader
+    4. reader.read_data()
+        5. reader.compile_file_list(data_dir,'train')
+            6. reading /data_dir/train.txt
+            7. return dict{frame:[],mask:[],cam:[]} 
+
+
+*1: train.txt is subfolder/ + ' ' +frame_id for each image
+*2: subfolder 下需有每一幀的圖片(png)、mask(-fseg.png)、caM_file(_cam.txt)
